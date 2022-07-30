@@ -7,7 +7,7 @@ const numberOfEnemy = 30;
 const enemiesArray = [];
 let gameFrame = 0;
 
-class Enemy4 {
+class Enemy {
   constructor() {
     this.image = new Image();
     this.image.src = "images/enemy4.png";
